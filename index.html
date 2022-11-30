@@ -2,14 +2,102 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>AllureLips</title>
+<title>Allure Lips</title>
 <link href="css/main.css" rel="stylesheet">
 </head>
-
+<!-- students must convert divs to semantic tags -->
 <body>
-    <div>
-        <header>
+    <h1 class="hidden">Allure Lips Page</h1>
+	<div id="container">
+       <header id="header-con" class="grid-con">
+            <div id="logo">
+                <img src="images/Logo_white.svg" alt="Allure Lips Logo">
+            </div> <!--Put Logo Here-->
+                
+            <nav id="main-nav">
+             <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Free Classes</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </nav>
+                
+            <div id="icons">
+                <a href="#"><img src="images/search.png" alt="search"></a>
+                <a href="#"><img src="images/wishlist_header.png" alt="Wish List"></a>
+                <a href="#"><img src="images/cart_header.png" alt="Cart"></a>
+                <a href="#"><img src="images/Sign_in.png" alt="Sign In"></a>
+            </div>
+                <a href="#">Register/Sign In</a>                     
+        </header> 
+
+        <main>
+            <section class="grid-con" id="hero">
+                <h2>Natural Beauty, new you.</h2>
+                <h4>Choose your dose of Allure</h4>
+                <h3>GET A 40% OFF<br>WHEN YOU SPEND C$30+</h3>
+                <img src="images/hero-image.jpg" alt="image" id="hero-image">
+            </section>
             
-        </header>
-    </div>
+            <div class="grid-con" id="products">
+                <h2>COLLECTION</h2>
+                <div class="product-box" id="product1">
+                    <img src="images/lipstick_home.jpg" alt="Lipstick">
+                </div>
+                <div class="product-box" id="product2">
+                    <img src="images/Lip_Shine.jpg" alt="Lipgloss">
+                </div>
+                <div class="product-box" id="product3">
+                    <img src="images/Lip_Pencil_homeoage.jpg" alt="Lipliner">
+                </div>
+                <div class="product-box" id="product4">
+                    <img src="images/lipscrub.jpg" alt="lipscrub">
+                </div>
+                <div class="product-box" id="product2">
+                    <img src="images/lipbalm.jpg" alt="Lipbalm">
+                </div>
+                <div class="product-box" id="product3">
+                    <img src="images/free_class.jpg" alt="Free Classes">
+                </div>
+            </div>
+
+            <h2 id="about-title">BOOM REWARDS</h2>
+            <div id="about-con">
+                <div class="grid-con" id="about">
+                    <div id="about-text" class="box-color">
+                    </div>
+                    <img src="images/" alt="" id="">
+                </div>
+            </div>
+            
+            <div class="grid-con" id="contact">
+                <div id="contact-text" class="box-color">
+                </div>
+                <div id="contact-form" class="box-color">
+                </div>
+            </div> 
+        </main>
+
+    <footer>
+            <div id="footer-con">
+                <div class="grid-con" id="footer">
+                    <div id="footer-logo" class="box-color">
+                    </div>
+                    <div id="footer-nav" class="box-color">
+                    </div>
+                    <div id="footer-newsletter1" class="box-color">
+                    </div>
+                    <div id="footer-newsletter2" class="box-color">
+                    </div>
+                    <div id="footer-social" class="box-color">
+                    </div>
+                </div>
+            </div>
+    </footer> 
+    </div> 
 </body>
+</html>

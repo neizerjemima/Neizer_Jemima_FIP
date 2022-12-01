@@ -24,10 +24,10 @@ img {
 .title-line {
     grid-column: 1/-1;
     border: none;
-    border-top: solid 3px #703535;
+    border-top: solid 5px #703535;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 /*html selectors*/
@@ -98,6 +98,59 @@ header a {
     position: sticky;
 }
 
+
+#main-text {
+	grid-column: 1/6;
+}
+
+#main-text h2 {
+	font-size: 76px;
+	color: #703535;
+	margin-top: 20px;
+	margin-bottom: 7px;
+	padding-left: 63px;
+}
+
+#main-text h3 {
+	font-size: 51px;
+	color: #703535;
+	text-align: center;
+}
+
+#main-text p{
+	grid-column: 1/6;
+	font-size: 41px;
+	color: #703535;
+	font-weight: 300;
+	padding-left: 63px;
+	margin-bottom: 10px;
+}
+
+#buy-now {
+	background-color: #703535;
+	color: white;
+	font-size: 30px;
+	display: flex;
+	justify-content: right ;
+	align-items: center;
+	height: 75px;
+	width: 200px;
+	margin-top: -80px;
+	padding-right: 20px;
+	grid-column: 3/4;
+	padding-left: 20px;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+#cart {
+	grid-column: 3/3;
+	margin-top: -72px;
+	position: relative;
+	padding-left: 20px;
+}
+
+
 #main-nav {
 	grid-column: 4/11;
     margin-top: 10px;
@@ -117,18 +170,13 @@ header a {
 #main-nav ul li {
     display: inline;
     margin-right: 30px;
+	font-size: 26px;
 }
 
 #main-nav ul li a {
     color: white;
-    font-size: 16px;
 }
 
-#header-box2 {
-	grid-column: 11/-1;
-	/* Remove as content will dictate height */
-	height: 80px;
-}
 /*---End of Header---*/
 
 
@@ -150,6 +198,8 @@ header a {
 	height: 582px;
 }
 
+
+/*---Start of Collection---*/
 #products {
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -158,12 +208,29 @@ header a {
 #products h2 {
 	grid-column: 1/-1;
 	text-align: center;
+	color: #703535;
+	font-size: 53px;
+	height: 75px;
+	margin: 5px 0 0 20px;
+}
+
+#products h3 {
+	grid-column: 1/-1;
+	background-color: white;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	color: #000000;
+	font-size: 35px;
+	border: solid 3px black;
+	height: 75px;
+	margin-top: 5px;
 }
 
 #product1 {
 	grid-column: 1/5;
-	/* Remove as content will dictate height */
-	height: 507px;
+	margin-bottom: 100px;
 }
 
 #product2 {
@@ -178,24 +245,39 @@ header a {
 	height: 507px;
 }
 
-#product4 {
-	grid-column: 1/5;
-	/* Remove as content will dictate height */
-	height: 507px;
+#collect {
+	color: #703535;
+	font-size: 58px;
+	font-weight: 600;
+	margin-top: 25px;
 }
 
-.product-box {
-	background-color: #ddd;
+/*---End of Collection---*/
+
+
+
+#rewards ul { 
+	grid-column: 5/7;
+	font-size: 18px;
 }
+
+
 
 #about-con {
-	background-color: #ddd;
+	background-color: #703535;
 	padding-top: 10px;
+	margin-top: -50px;
 	padding-bottom: 10px;
 }
 
 #about-title {
 	text-align: center;
+	font-size: 50px;
+	color: white;
+	padding: 40px 0 40px 0;	
+	background-color: #703535;
+	grid-column: 5/9;
+	margin-top: -100px;
 }
 
 #about-text {
@@ -210,23 +292,39 @@ header a {
 	height: 700px;
 }
 
+
+/*--CONTACT US---*/
+
 #contact {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
 
 #contact-text {
-	grid-column: 1/8;
-	/* Remove as content will dictate height */
-	height: 700px;
+	grid-column: 1/7;
 }
 
 #contact-form {
-	grid-column: 8/-1;
-	/* Remove as content will dictate height */
-	height: 700px;
+	grid-column: 6/12;
 }
 
+#contact-form form {
+	display: flex;
+	flex-direction: column;
+}
+
+input, textarea {
+    padding: 22px;
+    border: 2px solid #000000;
+    border-radius:  5px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    font: inherit;
+}
+
+#contact-form textarea {
+    height: 300px;
+}
 /*Common page elements  */
 
 #footer-con {
@@ -278,6 +376,12 @@ header a {
 	grid-column: 11/-1;
 	/* Remove as content will dictate height */
 	height: 80px;
+}
+
+#price-policy {
+    grid-column: 2/12;
+    font-size: 10px;
+    text-align: center;
 }
 
 

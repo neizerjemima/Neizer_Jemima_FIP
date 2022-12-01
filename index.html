@@ -91,8 +91,8 @@
                 </div>
             </div>
 
-            <section id="rewards" class="grid-con" >
-                <h2 class="hidden">Rewards</h2>
+            <section class="grid-con" >
+                <h2 id="rewards" class="hidden">Rewards</h2>
                 <ul>
                     <li> Birthday Gifts</li>
                     <li>Free Shipping</li>
@@ -101,11 +101,12 @@
                 </ul>
             </section>
 
-            <section class="grid" id="contact">
-                <h2> Contact Us</h2>
-                <section id="contact-text">
-                    <h3>Feel Free to Contact Us</h3>
+            <section class="grid-con">
+                <section id="contact">
+                    <h2 id="hero"> FEEL FREE TO CONTACT US</h2>
                     <p>Our Customers are top Priority</p>
+                
+                    <h3 class="hidden"> Contact Issues</h3>
                     <ul>
                         <li>Login Issues</li>
                         <li>Order Status</li>
@@ -114,26 +115,20 @@
                     </ul>
                 </section>
 
-            <section id="contact-form">
-                <h3 class="hidden">Contact Us Form</h2>
-                <form method="post" action="email.php" enctype="text/plain">
-                    <input id="username" type="text" placeholder="FirstName">
-                    <input id="lastname" type="text" placeholder="LastName">
-                    <input type="email" required placeholder="Email">
-                    <input id="phone" type="text" placeholder="Phone">
-                    <input id="location" type="list" placeholder="Select Location">                 
-                    <textarea name="msg" placeholder="Please tell us the details so we can better answer your question..."></textarea>
-                    <input name="submit" type="submit" value="Send">
-                </form>
+                <section id="contact-form">
+                 <h3 class="hidden">Contact Us Form</h3>
+                    <form method="post" action="email.php" enctype="text/plain">
+                        <input id="username" type="text" placeholder="FirstName">
+                        <input id="lastname" type="text" placeholder="LastName">
+                        <input type="email" required placeholder="Email">
+                        <input id="phone" type="text" placeholder="Phone">
+                        <input id="location" type="list" placeholder="Select Location">                 
+                        <textarea name="msg" placeholder="Please tell us the details so we can better answer your question..."></textarea>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
+                </section>
             </section>
-        </section>
-
-            <div class="grid-con" id="contact">
-                <div id="contact-text" class="box-color">
-                </div>
-                <div id="contact-form" class="box-color">
-                </div>
-            </div> 
+            
         </main>
 
         <footer id="footer-con" class="grid-con">

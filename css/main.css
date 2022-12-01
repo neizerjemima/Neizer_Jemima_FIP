@@ -259,9 +259,8 @@ header a {
 #rewards ul { 
 	grid-column: 5/7;
 	font-size: 18px;
+	margin-bottom: 0px;
 }
-
-
 
 #about-con {
 	background-color: #703535;
@@ -296,16 +295,40 @@ header a {
 /*--CONTACT US---*/
 
 #contact {
-	margin-top: 100px;
-	margin-bottom: 100px;
+	grid-column: 2/7;
+	margin-top: -10px;
 }
 
-#contact-text {
-	grid-column: 1/7;
+#contact h2 {
+	margin-bottom: 20px;
 }
+#contact h3 {
+	font-size: 19px;
+	color: #703535;
+}
+#contact p{
+	grid-column: 2/7;
+	font-size: 32px;
+	color: #703535;
+}
+
+#hero {
+	grid-column: 2/7;
+	color: #703535;
+	font-size: 45px;
+	margin-top: 70px;
+}
+#contact ul {
+	font-size: 20px;
+	grid-column: 3/5;
+	line-height: 50px;
+}
+
 
 #contact-form {
-	grid-column: 6/12;
+	grid-column: 8/12;
+	background-color: #703535;
+	padding: 40px 20px 40px 20px;
 }
 
 #contact-form form {
@@ -315,7 +338,7 @@ header a {
 
 input, textarea {
     padding: 22px;
-    border: 2px solid #000000;
+    border: 2px solid #303030;
     border-radius:  5px;
     background-color: #ffffff;
     margin-bottom: 15px;
@@ -325,10 +348,27 @@ input, textarea {
 #contact-form textarea {
     height: 300px;
 }
+
+#contact-form input[type="submit"] {
+    width: 100px;
+    padding: 16px 32px;
+    background-color: #ffffff;
+    color: #703535;
+    border: none;
+    transition: all 200ms ease-in;
+    align-self: flex-end;
+}
+
+#contact-form input[type="submit"]:hover {
+	background-color:#703535;
+	border-radius: 10px;
+	border: solid 3px #ffffff;
+	color: #ffffff;
+}
 /*Common page elements  */
 
 #footer-con {
-	background-color: #703535;
+	background-color: #dadada;
 	padding-bottom: 20px;
 	color: white;
 }

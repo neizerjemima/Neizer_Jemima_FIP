@@ -44,7 +44,9 @@
             </section>
             
             <div class="grid-con" id="products">
+                <hr class="title-line">
                 <h2>COLLECTION</h2>
+                <hr class="title-line">
                 <div class="product-box" id="product1">
                     <img src="images/lipstick_home.jpg" alt="Lipstick">
                 </div>
@@ -82,11 +84,65 @@
             </div> 
         </main>
 
-    <footer>
-            <div id="footer-con">
-                <div class="grid-con" id="footer">
-                    <div id="footer-logo" class="box-color">
-                    </div>
+        <footer id="footer-con" class="grid-con">
+            <h2 class="hidden">Allure Lips Footer</h2>
+                
+                    <section id="footer-logo1" class="box-color">
+                        <h2> Sign up for Promotion</h2>
+                        <form method="get" action="process.php">
+                            <label class="hidden">*Email</label>
+                            <input type="Email" required placeholder="EMAIL">
+                            <input type="submit" value="SUBSCRIBE">
+                        </form>
+                    </section>
+
+                    <section id="footer-logo2" class="box-color">
+                        <h2> Store Locator</h2>
+                        <label class="hidden">Select Store Branch</label>
+                        <input type="text" placeholder="Select Branch">
+                        <select name="Store Locator"></select>
+                    </section>
+
+                    <section id="footer-logo2">
+                     <h2 class="hidden">Location near you</h2>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11666.857490712315!2d-81.28491615!3d43.02639885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1666385986640!5m2!1sen!2sca" width="400" height="250" style="border:0;" 
+                      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </section>
+
+                    <nav>
+                     <h3 class="hidden">Footer Nav</h3>
+                        <div id="footer-nav1">
+                         <h3> ALLURE</h3>
+                            <a href="#">About Us</a>
+                            <a href="#">Careers</a>
+                        </div>
+
+                        <div id="footer-nav2">
+                         <h3>MY ALLURE</h3>
+                            <a href="#">My Account</a>
+                            <a href="#">My Wishlist</a>
+                            <a href="#">Order Status</a>
+                        </div>
+
+                        <div id="footer-nav1">
+                            <h3>WAYS TO SHOP</h3>
+                            <a href="#">Exclusive Offers</a>
+                            <a href="#">New Arrivals</a>
+                            <a href="#">TikTok Popular</a>
+                            <a href="#">Beginner Set</a>
+                        </div>
+
+                        <div id="footer-nav2">
+                            <h3>HELP & FAQ</h3>
+                            <a href="#">Contact Us</a>
+                            <a href="#">Returns</a>
+                            <a href="#">Events</a>
+                            <a href="#">Beginner Set</a>
+                        </div>
+
+
+                    </nav>
+
                     <div id="footer-nav" class="box-color">
                     </div>
                     <div id="footer-newsletter1" class="box-color">
@@ -95,9 +151,8 @@
                     </div>
                     <div id="footer-social" class="box-color">
                     </div>
-                </div>
-            </div>
-    </footer> 
+                
+         </footer> 
     </div> 
 </body>
 </html>

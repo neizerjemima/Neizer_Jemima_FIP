@@ -36,38 +36,53 @@
         </header> 
 
         <main>
+                           
             <section class="grid-con" id="hero">
-                <h2>Natural Beauty, new you.</h2>
-                <h4>Choose your dose of Allure</h4>
+                <section id="main-text">
+                <h2>Natural Beauty,<br> new you.</h2>
+                <p>Choose your dose of Allure</p>
                 <h3>GET A 40% OFF<br>WHEN YOU SPEND C$30+</h3>
-                <img src="images/hero-image.jpg" alt="image" id="hero-image">
+                </section>  
+                <img src="images/hero-image.jpg" alt="image of lips" id="hero-image">
+                <img src="images/cart_main.png" alt="buy now" id="cart" class="grid">
+                <a id="buy-now" href="#">Buy Now</a>
             </section>
             
             <div class="grid-con" id="products">
                 <hr class="title-line">
-                <h2>COLLECTION</h2>
+                <h2 id="collect">COLLECTION</h2>
                 <hr class="title-line">
                 <div class="product-box" id="product1">
                     <img src="images/lipstick_home.jpg" alt="Lipstick">
+                    <a href="#"><h3>LIP STICK</h3></a>
                 </div>
                 <div class="product-box" id="product2">
                     <img src="images/Lip_Shine.jpg" alt="Lipgloss">
+                    <a href="#"><h3>LIP GLOSS</h3></a>
                 </div>
                 <div class="product-box" id="product3">
                     <img src="images/Lip_Pencil_homeoage.jpg" alt="Lipliner">
+                    <a href="#"><h3>LIP LINER</h3></a>
                 </div>
-                <div class="product-box" id="product4">
+                <div class="product-box" id="product1">
                     <img src="images/lipscrub.jpg" alt="lipscrub">
+                    <a href="#"><h3>LIP SCRUB</h3></a>
                 </div>
                 <div class="product-box" id="product2">
                     <img src="images/lipbalm.jpg" alt="Lipbalm">
+                    <a href="#"><h3>LIP BALM</h3></a>
                 </div>
                 <div class="product-box" id="product3">
                     <img src="images/free_class.jpg" alt="Free Classes">
+                    <a href="#"><h3>FREE CLASSES</h3></a>
                 </div>
             </div>
 
-            <h2 id="about-title">BOOM REWARDS</h2>
+            
+            <section class="grid-con">
+                <h2 id="about-title">BOOM REWARDS</h2>
+            </section>
+                        
             <div id="about-con">
                 <div class="grid-con" id="about">
                     <div id="about-text" class="box-color">
@@ -75,7 +90,44 @@
                     <img src="images/" alt="" id="">
                 </div>
             </div>
-            
+
+            <section id="rewards" class="grid-con" >
+                <h2 class="hidden">Rewards</h2>
+                <ul>
+                    <li> Birthday Gifts</li>
+                    <li>Free Shipping</li>
+                    <li>Free Product</li>
+                    <li>Exclusive Offers and More</li>
+                </ul>
+            </section>
+
+            <section class="grid" id="contact">
+                <h2> Contact Us</h2>
+                <section id="contact-text">
+                    <h3>Feel Free to Contact Us</h3>
+                    <p>Our Customers are top Priority</p>
+                    <ul>
+                        <li>Login Issues</li>
+                        <li>Order Status</li>
+                        <li>Shipping and Returns</li>
+                        <li>Event Inquiry</li>
+                    </ul>
+                </section>
+
+            <section id="contact-form">
+                <h3 class="hidden">Contact Us Form</h2>
+                <form method="post" action="email.php" enctype="text/plain">
+                    <input id="username" type="text" placeholder="FirstName">
+                    <input id="lastname" type="text" placeholder="LastName">
+                    <input type="email" required placeholder="Email">
+                    <input id="phone" type="text" placeholder="Phone">
+                    <input id="location" type="list" placeholder="Select Location">                 
+                    <textarea name="msg" placeholder="Please tell us the details so we can better answer your question..."></textarea>
+                    <input name="submit" type="submit" value="Send">
+                </form>
+            </section>
+        </section>
+
             <div class="grid-con" id="contact">
                 <div id="contact-text" class="box-color">
                 </div>
@@ -152,6 +204,8 @@
                     <div id="footer-social" class="box-color">
                     </div>
                 
+             <p id="price-policy">© ALLURE LIPS. All Rights Reserved. Privacy Policy </p>
+            
          </footer> 
     </div> 
 </body>

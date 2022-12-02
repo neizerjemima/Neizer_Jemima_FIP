@@ -26,18 +26,22 @@
                 </ul>
             </nav>
                 
-            <div id="icons">
-                <a href="#"><img src="images/search.png" alt="search"></a>
-                <a href="#"><img src="images/wishlist_header.png" alt="Wish List"></a>
-                <a href="#"><img src="images/cart_header.png" alt="Cart"></a>
-                <a href="#"><img src="images/Sign_in.png" alt="Sign In"></a>
-            </div>
-                <a href="#">Register/Sign In</a>                     
+            <section id="icons">
+                <h2 class="hidden">Header icons</h2>
+                <ul>
+                    <li> <a href="#"><img src="images/search.png" alt="search"></a> </li>
+                    <li> <a href="#"><img src="images/wishlist_header.png" alt="Wish List"></a><li>
+                    <li><a href="#"><img src="images/cart_header.png" alt="Cart"></a></li>
+                    <li><a href="#"><img src="images/Sign_in.png" alt="Sign In"></a></li>
+                </ul>
+            </section>
+                <a href="#" id="reg">Register/Sign In</a>                     
         </header> 
 
         <main>
                            
-            <section class="grid-con" id="hero">
+            <section class="grid-con" id="hero1">
+                <h2 class="hidden">Main Information</h2>
                 <section id="main-text">
                 <h2>Natural Beauty,<br> new you.</h2>
                 <p>Choose your dose of Allure</p>
@@ -64,67 +68,75 @@
                     <img src="images/Lip_Pencil_homeoage.jpg" alt="Lipliner">
                     <a href="#"><h3>LIP LINER</h3></a>
                 </div>
-                <div class="product-box" id="product1">
+                <div class="product-box" id="product4">
                     <img src="images/lipscrub.jpg" alt="lipscrub">
                     <a href="#"><h3>LIP SCRUB</h3></a>
                 </div>
-                <div class="product-box" id="product2">
+                <div class="product-box" id="product5">
                     <img src="images/lipbalm.jpg" alt="Lipbalm">
                     <a href="#"><h3>LIP BALM</h3></a>
                 </div>
-                <div class="product-box" id="product3">
+                <div class="product-box" id="product6">
                     <img src="images/free_class.jpg" alt="Free Classes">
                     <a href="#"><h3>FREE CLASSES</h3></a>
                 </div>
             </div>
 
+            <section>
+                <section class="grid-con">
+                    <h2 id="about-title">BOOM REWARDS</h2>
+                </section>
+                            
+                <section id="about-con">
+                    <div class="grid-con" id="about">
+                        <section id="army" class="box-color">
+                            <h2>Allure<br>Army</h2>
+                            <a class="about-us" id="abt-us" href="#"><h3>About Us</h3></a>
+                            <p>Not a member?<span> <a href="#">Join Now for free</a></span></p>
+                        </section>
+
+                        <div>
+                            
+                        </div>
+                        <div id="rewards">
+                            <ul>
+                                <li>Birthday Gifts</li>
+                                <li>Free Shipping</li>
+                                <li>Free Product</li>
+                                <li>Exclusive Offers and More</li>
+                            </ul>
+                        </div>
+                        <img src="images/" alt="">
+                    </div>
+                </div>
+            </section>
+
             
             <section class="grid-con">
-                <h2 id="about-title">BOOM REWARDS</h2>
-            </section>
-                        
-            <div id="about-con">
-                <div class="grid-con" id="about">
-                    <div id="about-text" class="box-color">
-                    </div>
-                    <img src="images/" alt="" id="">
-                </div>
-            </div>
-
-            <section class="grid-con" >
-                <h2 id="rewards" class="hidden">Rewards</h2>
-                <ul>
-                    <li> Birthday Gifts</li>
-                    <li>Free Shipping</li>
-                    <li>Free Product</li>
-                    <li>Exclusive Offers and More</li>
-                </ul>
-            </section>
-
-            <section class="grid-con">
+                <h2 class="hidden">Contact Us Form</h2>
                 <section id="contact">
                     <h2 id="hero"> FEEL FREE TO CONTACT US</h2>
                     <p>Our Customers are top Priority</p>
                 
                     <h3 class="hidden"> Contact Issues</h3>
                     <ul>
-                        <li>Login Issues</li>
-                        <li>Order Status</li>
-                        <li>Shipping and Returns</li>
-                        <li>Event Inquiry</li>
+                        <li> <input type="checkbox"><span> Login Issues </span></li>
+                        <li> <input type="checkbox"><span> Order Status </span></li>
+                        <li> <input type="checkbox"><span> Shipping and Returns </span></li>
+                        <li> <input type="checkbox"><span> Event Inquiry </span></li>
                     </ul>
                 </section>
 
                 <section id="contact-form">
                  <h3 class="hidden">Contact Us Form</h3>
                     <form method="post" action="email.php" enctype="text/plain">
-                        <input id="username" type="text" placeholder="FirstName">
-                        <input id="lastname" type="text" placeholder="LastName">
+                        <input id="username" type="text" placeholder="First Name">
+                        <input id="lastname" type="text" placeholder="Last Name">
                         <input type="email" required placeholder="Email">
                         <input id="phone" type="text" placeholder="Phone">
-                        <input id="location" type="list" placeholder="Select Location">                 
+                        <input id="location" type="text" placeholder="Location">                 
                         <textarea name="msg" placeholder="Please tell us the details so we can better answer your question..."></textarea>
-                        <input name="submit" type="submit" value="Send">
+                        <input name="submit" type="submit" value="SUBMIT">
                     </form>
                 </section>
             </section>
@@ -134,7 +146,7 @@
         <footer id="footer-con" class="grid-con">
             <h2 class="hidden">Allure Lips Footer</h2>
                 
-                    <section id="footer-logo1" class="box-color">
+                    <section class="footer-logo1">
                         <h2> Sign up for Promotion</h2>
                         <form method="get" action="process.php">
                             <label class="hidden">*Email</label>
@@ -143,52 +155,63 @@
                         </form>
                     </section>
 
-                    <section id="footer-logo2" class="box-color">
+                    <section class="footer-logo2">
                         <h2> Store Locator</h2>
                         <label class="hidden">Select Store Branch</label>
                         <input type="text" placeholder="Select Branch">
                         <select name="Store Locator"></select>
                     </section>
 
-                    <section id="footer-logo2">
+                     <nav class="grid-con">
+                     <h3 class="hidden">Footer Nav</h3>
+                        <section class="footer-nav1" id="f-nav">
+                         <h3> ALLURE</h3>
+                            <ul>
+                                <li> <a href="#">About Us</a></li>
+                                <li> <a href="#">Careers</a></li>
+                            </ul>
+                        </section>
+
+                        <section class="footer-nav2">
+                            <h3>MY ALLURE</h3>
+                               <ul>
+                                   <li><a href="#">My Account</a></li>
+                                   <li><a href="#">My Wishlist</a></li>
+                                   <li><a href="#">Order Status</a></li>  
+                               </ul>
+                        </section>
+
+                        <section class="footer-nav1">
+                         <h3>WAYS TO SHOP</h3>
+                            <ul>
+                                <li> <a href="#">Exclusive Offers</a></li>
+                                <li> <a href="#">New Arrivals</a></li>
+                                <li> <a href="#">TikTok Popular</a></li>
+                                <li> <a href="#">Beginner Set</a></li>
+                            </ul>
+                        </section>
+
+                    
+
+                        <section class="footer-nav2">
+                         <h3>HELP & FAQ</h3>
+                            <ul>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Beginner Set</a></li>
+                            </ul>
+                        </section>
+
+                    </nav>
+
+                    <section class="footer-logo2">
                      <h2 class="hidden">Location near you</h2>
                       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11666.857490712315!2d-81.28491615!3d43.02639885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1666385986640!5m2!1sen!2sca" width="400" height="250" style="border:0;" 
                       allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </section>
 
-                    <nav>
-                     <h3 class="hidden">Footer Nav</h3>
-                        <div id="footer-nav1">
-                         <h3> ALLURE</h3>
-                            <a href="#">About Us</a>
-                            <a href="#">Careers</a>
-                        </div>
-
-                        <div id="footer-nav2">
-                         <h3>MY ALLURE</h3>
-                            <a href="#">My Account</a>
-                            <a href="#">My Wishlist</a>
-                            <a href="#">Order Status</a>
-                        </div>
-
-                        <div id="footer-nav1">
-                            <h3>WAYS TO SHOP</h3>
-                            <a href="#">Exclusive Offers</a>
-                            <a href="#">New Arrivals</a>
-                            <a href="#">TikTok Popular</a>
-                            <a href="#">Beginner Set</a>
-                        </div>
-
-                        <div id="footer-nav2">
-                            <h3>HELP & FAQ</h3>
-                            <a href="#">Contact Us</a>
-                            <a href="#">Returns</a>
-                            <a href="#">Events</a>
-                            <a href="#">Beginner Set</a>
-                        </div>
-
-
-                    </nav>
+                   
 
                     <div id="footer-nav" class="box-color">
                     </div>
@@ -198,8 +221,8 @@
                     </div>
                     <div id="footer-social" class="box-color">
                     </div>
-                
-             <p id="price-policy">© ALLURE LIPS. All Rights Reserved. Privacy Policy </p>
+             <p id="download">Download the Allure Mobile App</p>   
+             <p id="policy">© ALLURE LIPS. All Rights Reserved. Privacy Policy </p>
             
          </footer> 
     </div> 

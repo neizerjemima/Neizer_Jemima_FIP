@@ -18,7 +18,7 @@
              <h2 class="hidden">Main Navigation</h2>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="#">About us</a></li>
                     <li><a href="#">Free Classes</a></li>
                     <li><a href="#">Contact</a></li>
@@ -87,13 +87,13 @@
                     <h2 id="about-title">BOOM REWARDS</h2>
                 </section>
                             
-                <section id="about-con">
+                <div id="about-con">
                     <div class="grid-con" id="about">
-                        <section id="army" class="box-color">
+                        <div id="army" class="box-color">
                             <h2>Allure<br>Army</h2>
-                            <a class="about-us" id="abt-us" href="#"><h3>About Us</h3></a>
+                            <a href="#"><h3 id="abt-us">About Us</h3></a>
                             <p>Not a member?<span> <a href="#">Join Now for free</a></span></p>
-                        </section>
+                        </div>
 
                         <div>
                             
@@ -139,90 +139,106 @@
                         <input name="submit" type="submit" value="SUBMIT">
                     </form>
                 </section>
-            </section>
-            
+            </section>   
         </main>
 
         <footer id="footer-con" class="grid-con">
-            <h2 class="hidden">Allure Lips Footer</h2>
-                
-                    <section class="footer-logo1">
-                        <h2> Sign up for Promotion</h2>
+        <h2 class="hidden">Allure Lips Footer</h2>
+                <section id="logo1" class="footer-logo1">
+                    <h2> Sign up for Promotion</h2>
                         <form method="get" action="process.php">
                             <label class="hidden">*Email</label>
-                            <input type="Email" required placeholder="EMAIL">
-                            <input type="submit" value="SUBSCRIBE">
+                            <input  id="mail" type="Email" required placeholder="EMAIL">
+                            <input id="sub" type="submit" value="SUBSCRIBE">
                         </form>
+                </section>
+
+                <section id="logo2" class="footer-logo2">
+                    <h2> Store Locator</h2>
+                    <label class="hidden">Select Store Branch</label>
+                    <input type="text" placeholder="Select Branch">
+                    <select id="select" name="Store Locator"></select>
+                </section>
+
+                <nav class="grid-con" id="foot-list">
+                    <h2 class="hidden">Footer Nav</h2>
+                    <section class="footer-nav1" id="f-nav">
+                        <h3 class="hidden"> ALLURE</h3>
+                        <ul>
+                            <li>ALLURE</li>
+                            <li> <a href="#">About Us</a></li>
+                            <li> <a href="#">Careers</a></li>
+                        </ul>
                     </section>
 
-                    <section class="footer-logo2">
-                        <h2> Store Locator</h2>
-                        <label class="hidden">Select Store Branch</label>
-                        <input type="text" placeholder="Select Branch">
-                        <select name="Store Locator"></select>
+                    <section class="footer-nav2" id="f-nav1">
+                        <h3 class="hidden">MY ALLURE</h3>
+                        <ul>
+                            <li>MY ALLURE</li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">My Wishlist</a></li>
+                            <li><a href="#">Order Status</a></li>  
+                        </ul>
                     </section>
 
-                     <nav class="grid-con">
-                     <h3 class="hidden">Footer Nav</h3>
-                        <section class="footer-nav1" id="f-nav">
-                         <h3> ALLURE</h3>
-                            <ul>
-                                <li> <a href="#">About Us</a></li>
-                                <li> <a href="#">Careers</a></li>
-                            </ul>
-                        </section>
+                    <section class="footer-nav1" id="f-nav2">
+                        <h3 class="hidden">WAYS TO SHOP</h3>
+                        <ul>
+                            <li>WAYS TO SHOP</li>
+                            <li> <a href="#">Exclusive Offers</a></li>
+                            <li> <a href="#">New Arrivals</a></li>
+                            <li> <a href="#">TikTok Popular</a></li>
+                            <li> <a href="#">Beginner Set</a></li>
+                        </ul>
+                    </section>                 
 
-                        <section class="footer-nav2">
-                            <h3>MY ALLURE</h3>
-                               <ul>
-                                   <li><a href="#">My Account</a></li>
-                                   <li><a href="#">My Wishlist</a></li>
-                                   <li><a href="#">Order Status</a></li>  
-                               </ul>
-                        </section>
+                    <section class="footer-nav2" id="f-nav3">
+                        <h3 class="hidden">HELP & FAQ</h3>
+                        <ul>
+                            <li>HELP & FAQ</li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Beginner Set</a></li>
+                        </ul>
+                    </section>
+                </nav>
 
-                        <section class="footer-nav1">
-                         <h3>WAYS TO SHOP</h3>
-                            <ul>
-                                <li> <a href="#">Exclusive Offers</a></li>
-                                <li> <a href="#">New Arrivals</a></li>
-                                <li> <a href="#">TikTok Popular</a></li>
-                                <li> <a href="#">Beginner Set</a></li>
-                            </ul>
-                        </section>
-
-                    
-
-                        <section class="footer-nav2">
-                         <h3>HELP & FAQ</h3>
-                            <ul>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Returns</a></li>
-                                <li><a href="#">Events</a></li>
-                                <li><a href="#">Beginner Set</a></li>
-                            </ul>
-                        </section>
-
-                    </nav>
-
-                    <section class="footer-logo2">
-                     <h2 class="hidden">Location near you</h2>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11666.857490712315!2d-81.28491615!3d43.02639885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1666385986640!5m2!1sen!2sca" width="400" height="250" style="border:0;" 
+                <section class="footer-logo2">
+                 <h2 class="hidden">Location near you</h2>
+                    <iframe width="560" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11666.857490712315!2d-81.28491615!3d43.02639885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1666385986640!5m2!1sen!2sca" height="250" style="border:0;" 
                       allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </section>
+                </section>
 
-                   
+                <section id="footer-icons">
+                    <h2 class="hidden">Social Media Icons</h2>
+                    <ul>
+                        <li>
+                            <img src="images/instagram.png" alt="instagram">
+                            <img src="images/facebook.png" alt="facebook">
+                            <img src="images/twitter.png" alt="twitter">
+                            <img src="images/linked_in.png" alt="linkedin">
+                            <img src="images/tiktok.png" alt="tiktok">
+                            <img src="images/snapchat.png" alt="snapchat">
+                            <img src="images/pinterest.png" alt="pinterest">
+                            <img src="images/youtube.png" alt="youtube">
+                        </li>
+                    </ul>  
+                </section>
+                
+                <section>
+                    <h2 class="hidden"> Country</h2>
+                <img src="images/Flag_of_Canada.png.png" alt="Flag of Canada">
+                <p>Canada   CAD</p>   
+                </section>
 
-                    <div id="footer-nav" class="box-color">
-                    </div>
-                    <div id="footer-newsletter1" class="box-color">
-                    </div>
-                    <div id="footer-newsletter2" class="box-color">
-                    </div>
-                    <div id="footer-social" class="box-color">
-                    </div>
-             <p id="download">Download the Allure Mobile App</p>   
-             <p id="policy">© ALLURE LIPS. All Rights Reserved. Privacy Policy </p>
+                <p id="download">Download the Allure Mobile App</p> 
+                <section id="store" class="footer-logo2">
+                    <h2 class="hidden">Download Store</h2>
+                    <a href="#"><img src="images/Available_on_the_App_Store.png" alt="Apple Store"></a>
+                    <a href="#"><img src="images/Available_on_the_Google_Play.png" alt="Google Play Store"></a>
+                </section> 
+                <p id="policy">© ALLURE LIPS All Rights Reserved Privacy Policy </p>
             
          </footer> 
     </div> 

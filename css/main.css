@@ -115,7 +115,6 @@ header a {
     position: sticky;
 }
 
-
 #main-text {
 	grid-column: 1/6;
 }
@@ -617,6 +616,20 @@ grid-column: 1/7;
 	font-size: 35px;
 	height: 70px;
 	margin-top: 5px;
+	margin-bottom: 40px;
+}
+
+.gallery-box h5 {
+	grid-column: 1/-1;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	color: #000000;
+	font-size: 20px;
+	height: 10px;
+	margin-top: 5px;
+	margin-bottom: 50px;
 }
 
 #gallery-text {
@@ -646,13 +659,15 @@ grid-column: 1/7;
 	text-align: center;
   }
 
+#gallery4, #gallery5, #gallery6, #gallery7, #gallery8, #gallery9, #gallery10, #gallery11, #gallery12 {margin-top: 120px;}
+
 .gallery-box {
 	background-color: rgb(255, 255, 255);
 	border: solid 1px rgb(141, 141, 141);
 	grid-column: span 4 / span 4;
 	/* Remove as content will dictate height */
-	height: 840px;
-	margin-bottom: 40px;
+	height: 845px;
+	margin-bottom: 10px;
 	width: fit-content;
 }
 
@@ -738,7 +753,12 @@ grid-column: 1/7;
 	height: 30px;
 	border-radius: 100px;
 }
-.color-button2{ margin-left: 126px;}
+.c-fine { display: inline-flex;
+	margin-left: 178px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	justify-content: space-evenly;
+}
 /*---END OF PRODUCT 2---*/
 
 /*---PRODUCT 3---*/
@@ -1158,7 +1178,30 @@ grid-column: 1/7;
 	height: 788px;
 	margin-bottom: 40px;
 	width: fit-content;
+	margin-top: 120px;
 }
+
+#select1 {
+	padding: 12px 0 12px 0;
+	border-radius:  5px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+	font-size: 15px;
+	width: 50px;
+	align-content: center;
+}
+
+#logog input, textarea {
+    padding: 12px;
+    border-radius:  5px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+	font-size: 15px;
+}
+
+
 
 #textButton:hover{
 	background-color: green;

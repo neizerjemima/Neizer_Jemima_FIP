@@ -89,6 +89,7 @@ you work on and the intended audience */
 #icons ul {
 	display: flex;
 	justify-content: space-evenly;
+	align-items: center;
 }
 
 #icons ul li { 
@@ -601,8 +602,21 @@ grid-column: 1/7;
 
 #gallery-hero-con {
 	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/1920x580");
+	background: url("../images/hero_image_gallery.jpg");
 	height: 580px;
+}
+
+.gallery-box h3 {
+	grid-column: 1/-1;
+	background-color: #828282;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	color: #ffffff;
+	font-size: 35px;
+	height: 70px;
+	margin-top: 5px;
 }
 
 #gallery-text {
@@ -612,9 +626,9 @@ grid-column: 1/7;
 	margin-top: 100px;
 }
 
-#gallery-controls {
-	margin-top: 200px;
-	grid-column: 6/8;
+#colors {
+	margin-top: 0px;
+	grid-column: 1/3;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -622,11 +636,10 @@ grid-column: 1/7;
 
 .dot {
 	background-color: #dddddd;
-	height: 30px;
-	width: 30px;
+	display: inline;
 	border-radius: 50%;
 	margin: 5px;
-  }
+}
 
 #gallery h2 {
 	grid-column: 1/-1;
@@ -634,9 +647,519 @@ grid-column: 1/7;
   }
 
 .gallery-box {
-	background-color: #ddd;
+	background-color: rgb(255, 255, 255);
+	border: solid 1px rgb(141, 141, 141);
 	grid-column: span 4 / span 4;
 	/* Remove as content will dictate height */
-	height: 507px;
-	margin-bottom: 20px;
+	height: 840px;
+	margin-bottom: 40px;
+	width: fit-content;
+}
+
+.gallery-box h3, p, h4 {
+	text-align: center;
+}
+
+/*---PRODUCT 1---*/
+#color-button{
+	background: #99D851;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button1{
+	background:#FC283F;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button2{
+	background:#BCBCBC;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button3{
+	background:#96592b;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+.color-button{ margin-left: 160px;}
+/*---END OF PRODUCT 1---*/
+
+/*---PRODUCT 2---*/
+#color-button2-1{
+	background: #FF8204;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button2-2{
+	background:#A51515;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button2-3{
+	background:#8AAD90;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button2-4{
+	background:#704B30;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button2-5{
+	background: #87CCC0;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px; 
+	border-radius: 100px;
+}
+#color-button2-6{
+	background:#6b645f;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+.color-button2{ margin-left: 126px;}
+/*---END OF PRODUCT 2---*/
+
+/*---PRODUCT 3---*/
+#color-button3-1{
+	background: #ECECEC;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button3-2{
+	background:#180406;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button3-3{
+	background: #23548D;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button3-4{
+	background: #1E1E1E;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button3-5{
+	background: #D18888;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button3-6{
+	background:#671616;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT 3---*/
+
+/*---PRODUCT 4---*/
+#color-button4-1{
+	background: #FF0000;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button4-2{
+	background:#FF00D5;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button4-3{
+	background: #1E1E1E;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button4-4{
+	background: #772719;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT4---*/
+
+/*---PRODUCT 5---*/
+#color-button5-1{
+	background: #8B8B8B;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button5-2{
+	background:#4A47B4;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button5-3{
+	background: #E13D7A;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button5-4{
+	background: #E3C7AC;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button5-5{
+	background: #635252;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+.color-button3{ margin-left: 145px;}
+/*---END OF PRODUCT 5---*/
+
+/*---PRODUCT 6---*/
+#color-button6-1{
+	background: #ff9c9e;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button6-2{
+	background:#FB3D3D;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button6-3{
+	background:#7A4242;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button6-4{
+	background:#c48355;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button6-5{
+	background: #E35C3E;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px; 
+	border-radius: 100px;
+}
+#color-button6-6{
+	background:#EBEBEB;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT 6---*/
+
+/*---PRODUCT 7---*/
+#color-button7-1{
+	background: #FD4D39;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button7-2{
+	background: #556B2F;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button7-3{
+	background: #800080;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button7-4{
+	background: #D2B48C;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT7---*/
+
+/*---PRODUCT 8---*/
+#color-button8-1{
+	background: #664635;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button8-2{
+	background:#191970;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button8-3{
+	background: #171717;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button8-4{
+	background: #9E2323;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button8-5{
+	background: whitesmoke;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT 8---*/
+
+/*---PRODUCT 9---*/
+#color-button9-1{
+	background: #F4814D;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button9-2{
+	background:#A0522D;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button9-3{
+	background:#7A4242;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button9-4{
+	background:#2F4F4F;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button9-5{
+	background: #FF0000;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px; 
+	border-radius: 100px;
+}
+#color-button9-6{
+	background: #FF7F50;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT 9---*/
+
+/*---PRODUCT 10---*/
+#color-button10-1{
+	background: #987A61;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button10-2{
+	background:#f5f5f5;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button10-3{
+	background: #174946;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button10-4{
+	background: #097290;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button10-5{
+	background: #41825C;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT 10---*/
+
+/*---PRODUCT 11---*/
+#color-button11-1{
+	background: #CE6A6F;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button11-2{
+	background: #D8BFD8;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button11-3{
+	background: #340909;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button11-4{
+	background: #FF1E1E;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT11---*/
+
+/*---PRODUCT 12---*/
+#color-button12-1{
+	background:#FDAAAD;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button12-2{
+	background:#A0522D;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button12-3{
+	background:#FB3D3D;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button12-4{
+	background:#274d4d;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button12-5{
+	background: #800000;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px; 
+	border-radius: 100px;
+}
+#color-button12-6{
+	background: #5F9EA0;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT 12---*/
+
+.poster-vir {
+	background-color: rgb(255, 255, 255);
+	border: solid 1px rgb(141, 141, 141);
+	grid-column: span 4 / span 4;
+	/* Remove as content will dictate height */
+	height: 788px;
+	margin-bottom: 40px;
+	width: fit-content;
+}
+
+#textButton:hover{
+	background-color: green;
 }

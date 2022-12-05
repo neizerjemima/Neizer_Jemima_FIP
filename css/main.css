@@ -365,6 +365,30 @@ header a {
 	height: 700px;
 }
 
+#vid1 {
+	height: 342;
+	width: 350;
+	border: solid 2px black;
+	grid-column: 8/10;
+}
+
+#vid2 {
+	height: 242;
+	width: 200;
+	border: solid 2px black;
+	grid-column: 10/12;
+}
+
+#free {
+	border-radius: 20px;
+
+}
+
+#free2 {
+	border-radius: 20px;
+
+}
+
 
 /*--CONTACT US---*/
 
@@ -662,13 +686,13 @@ grid-column: 1/7;
 #gallery4, #gallery5, #gallery6, #gallery7, #gallery8, #gallery9, #gallery10, #gallery11, #gallery12 {margin-top: 120px;}
 
 .gallery-box {
-	background-color: rgb(255, 255, 255);
 	border: solid 1px rgb(141, 141, 141);
 	grid-column: span 4 / span 4;
 	/* Remove as content will dictate height */
-	height: 845px;
-	margin-bottom: 10px;
+	height: 745px;
+	margin-bottom: 200px;
 	width: fit-content;
+	padding-bottom: 200px;
 }
 
 .gallery-box h3, p, h4 {

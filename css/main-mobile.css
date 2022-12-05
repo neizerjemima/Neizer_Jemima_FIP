@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* CSS Document */
 
 /*Remove this rule on your HTML elements as you start to fill them with content*/
@@ -35,7 +34,26 @@ img {
     margin-top: 10px;
     margin-bottom: 30px;
 }
+.c-fine { display: inline-flex;
+	margin-left: 108px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	justify-content: space-evenly;
+}
 
+.c-fine1 { display: inline-flex;
+	margin-left: 138px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	
+}
+
+.c-fine3 { display: inline-flex;
+	margin-left: 128px;
+	margin-top: 15px;
+	margin-bottom: 18px;
+	
+}
 /*html selectors*/
 
 body {
@@ -68,7 +86,12 @@ you work on and the intended audience, we may go as low as 320px */
 	width: 428px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.699);
 }
-
+#container1 {
+	margin: 0 auto;
+	width: 428px;
+	height: max-content;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.699);
+}
 /* this is our grid based off of our XD file */
 .grid-con {
 	display: grid;
@@ -417,9 +440,10 @@ you work on and the intended audience, we may go as low as 320px */
 
 /* gallery page */
 
+
 #hero-gallery-con {
 	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
+	background: url(../images/mobile_home/hero_image_gallery.jpg);
 	height: 458px;
 }
 
@@ -430,14 +454,17 @@ you work on and the intended audience, we may go as low as 320px */
 	margin-top: 20px;
 }
 
-#gallery-controls {
+#gallery h2 {
+	color: #703535;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	font-size: 26px;
+}
+.find-it {
 	grid-column: 1/-1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	text-align: center;
 	margin-top: 20px;
 }
-
 .dot {
 	background-color: #dddddd;
 	height: 30px;
@@ -449,17 +476,219 @@ you work on and the intended audience, we may go as low as 320px */
 #gallery h2 {
 	text-align: center;
 	grid-column: 1/-1;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
+
 
 .gallery-box {
 	grid-column: 1/-1;
-	background-color: #ddd;
-	/* Remove as content will dictate height */
-	height: 507px;
-	margin-bottom: 20px;
+	grid-column: span 4 / span 4;
+	height: 675px;
+	margin-bottom: 70px;
+	width: fit-content;
+	margin-top: 20px;
 }
+.gallery-box h3, p, h4 {
+	text-align: center;
+}
+
+
+
+/*---PRODUCT 1---*/
+#color-button{
+	background: #99D851;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button1{
+	background:#FC283F;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button2{
+	background:#BCBCBC;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button3{
+	background:#96592b;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT 1---*/
+
+/*---PRODUCT 2---*/
+#color-button6-1{
+	background: #ff9c9e;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button6-2{
+	background:#FB3D3D;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button6-3{
+	background:#7A4242;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button6-4{
+	background:#c48355;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button6-5{
+	background: #E35C3E;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px; 
+	border-radius: 100px;
+}
+#color-button6-6{
+	background:#EBEBEB;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT 2---*/
+
+/*---PRODUCT 3---*/
+#color-button9-1{
+	background: #F4814D;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button9-2{
+	background:#A0522D;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button9-3{
+	background:#7A4242;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button9-4{
+	background:#2F4F4F;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button9-5{
+	background: #FF0000;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px; 
+	border-radius: 100px;
+}
+#color-button9-6{
+	background: #FF7F50;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT 3---*/
+
+/*---PRODUCT 4---*/
+#color-button10-1{
+	background: #987A61;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button10-2{
+	background:#f5f5f5;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button10-3{
+	background: #174946;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+#color-button10-4{
+	background: #097290;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+#color-button10-5{
+	background: #41825C;
+	border: solid .1px rgb(114, 114, 114);
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+/*---END OF PRODUCT 4---*/
+
+.gallery-box h3, p, h4 {
+	text-align: center;
+}
+/*---Add to Bag--*/
+.gallery-box h3 {
+	grid-column: 1/-1;
+	background-color: #828282;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	color: #ffffff;
+	font-size: 35px;
+	height: 70px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+  }
+  /*---Add to Bag--*/
+
+  #poster {
+	background-color: rgb(255, 255, 255);
+	border: solid 1px rgb(141, 141, 141);
+	grid-column: span 4 / span 4;
+	/* Remove as content will dictate height */
+	height: 488px;
+	margin-bottom: 40px;
+	width: fit-content;
+	margin-top: 70px;
+}
+
 
 #footer-newsletter2 {
 	margin-top: 20px;
@@ -543,3 +772,4 @@ you work on and the intended audience, we may go as low as 320px */
 	font-size: 16px;
 	margin-left: 117px;
 }
+

@@ -57,7 +57,7 @@ img {
 /*html selectors*/
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Montserrat', 'Times New Roman', serif;
 	font-size: 12px;
 }
 
@@ -482,15 +482,20 @@ you work on and the intended audience, we may go as low as 320px */
 
 .gallery-box {
 	grid-column: 1/-1;
-	grid-column: span 4 / span 4;
-	height: 675px;
-	margin-bottom: 70px;
+	margin-bottom: 0px;
 	width: fit-content;
-	margin-top: 20px;
+	margin-top: 40px;
+	margin-left: -5px;
+}
+.gallery-box2 {
+	grid-column: 1/-1;
+	margin-left: -5px;
 }
 .gallery-box h3, p, h4 {
 	text-align: center;
 }
+
+
 
 
 
@@ -680,13 +685,11 @@ you work on and the intended audience, we may go as low as 320px */
 
   #poster {
 	background-color: rgb(255, 255, 255);
-	border: solid 1px rgb(141, 141, 141);
-	grid-column: span 4 / span 4;
-	/* Remove as content will dictate height */
 	height: 488px;
 	margin-bottom: 40px;
 	width: fit-content;
-	margin-top: 70px;
+	margin-top: 0px;
+	margin-left: -5px;
 }
 
 

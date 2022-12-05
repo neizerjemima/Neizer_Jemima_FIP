@@ -10,8 +10,9 @@
 /*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
 
 div,p,body,header,footer,section,article,nav { 
-	margin: 0; 
-	padding: 0; 
+	margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Times New Roman', serif;
 }	
 
 img { 
@@ -29,20 +30,11 @@ img {
     margin-bottom: 30px;
 }
 
-/*html selectors*/
-
-body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	
-}
-
-/* Remove underlines from links */
 
 a {
 	text-decoration: none;
 }
 
-/*hide elements from browser but show for doc outline*/
 
 .hidden {
 	display: none;
@@ -120,7 +112,7 @@ header a {
 }
 
 #main-text h2 {
-	font-size: 76px;
+	font-size: 74px;
 	color: #703535;
 	margin-top: 20px;
 	margin-bottom: 7px;
@@ -128,7 +120,7 @@ header a {
 }
 
 #main-text h3 {
-	font-size: 51px;
+	font-size: 50px;
 	color: #703535;
 	text-align: center;
 }
@@ -149,21 +141,22 @@ header a {
 	display: flex;
 	justify-content: right ;
 	align-items: center;
-	height: 75px;
+	height: 80px;
 	width: 200px;
 	margin-top: -80px;
 	padding-right: 20px;
 	grid-column: 3/4;
-	padding-left: 20px;
+	padding-left: 40px;
 	border-radius: 10px;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 #cart {
 	grid-column: 3/3;
-	margin-top: -72px;
+	margin-top: -30px;
 	position: relative;
-	padding-left: 20px;
+	padding-left: 30px;
+	padding-top: -30px;
 }
 
 
@@ -360,11 +353,33 @@ header a {
 }
 
 #about-image {
-	grid-column: 8/-1;
+	margin-left: 200px;
+	margin-top: 20px;
 	/* Remove as content will dictate height */
-	height: 700px;
+	height: 250px;
 }
 
+#about-image2 {
+	margin-left: -270px;
+	margin-top:350px;
+	/* Remove as content will dictate height */
+	height: 250px;
+}
+
+#about-image3 {
+	margin-left: -25px;
+	margin-top:30px;
+	/* Remove as content will dictate height */
+	height: 300px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.799);
+}
+#about-image4 {
+	margin-left: -150px;
+	margin-top:300px;
+	/* Remove as content will dictate height */
+	height: 200px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.799);
+}
 #vid1 {
 	height: 342;
 	width: 350;
@@ -380,13 +395,13 @@ header a {
 }
 
 #free {
-	border-radius: 20px;
-
+	border-radius: 60px;
+	grid-column: 10/12;
 }
 
 #free2 {
-	border-radius: 20px;
-
+	border-radius: 40px;
+	grid-column: 8/10;
 }
 
 
@@ -567,6 +582,13 @@ grid-column: 1/7;
 
 .footer-nav2 { grid-column: 3/5;}
 
+.can { 
+	grid-column: 9/10;
+	margin-left: -50px;
+	font-size: 19px;
+	margin-top: 20px;
+}
+.can p{ margin-left: -100px;}
 #f-nav ul li { 
 	margin-bottom: 9px ;
 	margin-left: -140px;
@@ -605,6 +627,8 @@ grid-column: 1/7;
     grid-column: 7/12;
     font-size: 26px;
     text-align: center;
+	margin-top: 100px;
+	margin-left: 20px;
 }
 
 #store {
@@ -629,6 +653,37 @@ grid-column: 1/7;
 	height: 580px;
 }
 
+#gallery-hero-con h2 {
+	color: #fff;
+	font-size: 52px;
+	grid-column: 1/7;
+	margin-top: 248px;
+}
+#gallery-hero-con p {
+	color: #fff;
+	font-size: 32px;
+	grid-column: 1/7;
+	margin-top: -22px;
+	text-align: left;
+}
+#logog {
+	grid-column: 8/12;
+	padding-left: 200px;
+}
+#logog input {
+	padding-left: 200px;
+	margin-top: -396px;
+	height: 40px;
+	width: 296px;
+	border: solid 3px #000000;
+}
+#select1 {
+	padding-left: 200px;
+	margin-top: -396px;
+	height: 67px;
+	width: 296px;
+	border: solid 3px #000000;
+}
 .gallery-box h3 {
 	grid-column: 1/-1;
 	background-color: #828282;
@@ -658,9 +713,7 @@ grid-column: 1/7;
 
 #gallery-text {
 	grid-column: 1/9;
-	/* Remove as content will dictate height */
 	height: 200px;
-	margin-top: 100px;
 }
 
 #colors {
@@ -681,6 +734,16 @@ grid-column: 1/7;
 #gallery h2 {
 	grid-column: 1/-1;
 	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+  #product {
+	grid-column: 1/-1;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	font-size: 58px;
+	color: #703535;	
   }
 
 #gallery4, #gallery5, #gallery6, #gallery7, #gallery8, #gallery9, #gallery10, #gallery11, #gallery12 {margin-top: 120px;}
@@ -688,8 +751,7 @@ grid-column: 1/7;
 .gallery-box {
 	border: solid 1px rgb(141, 141, 141);
 	grid-column: span 4 / span 4;
-	/* Remove as content will dictate height */
-	height: 745px;
+	height: 695px;
 	margin-bottom: 200px;
 	width: fit-content;
 	padding-bottom: 200px;
@@ -1195,7 +1257,7 @@ grid-column: 1/7;
 /*---END OF PRODUCT 12---*/
 
 .poster-vir {
-	background-color: rgb(255, 255, 255);
+	background-color: #703535;
 	border: solid 1px rgb(141, 141, 141);
 	grid-column: span 4 / span 4;
 	/* Remove as content will dictate height */
@@ -1203,6 +1265,40 @@ grid-column: 1/7;
 	margin-bottom: 40px;
 	width: fit-content;
 	margin-top: 120px;
+	
+}
+
+#review {
+	color: #fff;
+	text-align: center;
+	width: 530px;
+} 
+
+#review p { 
+	margin-top: 30px;
+	font-size: 26px;	
+}
+#review h2 {
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+#virtual {
+	font-size: 39px;
+	background-color: #fff;
+	margin-top: -170px;
+	color: #fff;
+}
+
+#virtual a button {
+	margin-left: 185px;
+	font-size: 30px;
+	border-radius: 20px;
+	background-color: #fff;
+	margin-top: 15px;
+	height: 50px;
+	width: 200px;
 }
 
 #select1 {
